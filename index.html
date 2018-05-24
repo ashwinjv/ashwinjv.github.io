@@ -196,7 +196,10 @@
                 </div>
             </div>
             <div class="row mr-2 mb-2">
-                    <p class="col-12 text-muted text-right">On a scale of <strong>Hello World</strong> to <strong>Design a platform with</strong></p>
+                <p class="col-12 text-muted text-right">On a scale of
+                    <strong>Hello World</strong> to
+                    <strong>Design a platform with</strong>
+                </p>
             </div>
         </div>
         <div class="shadow card border-light mb-5 text-dark">
@@ -208,34 +211,33 @@
                         I worked on hardware, firmware and software for devices that acted as a hub for control
                         of Audio Visual (AV) devices in public spaces like conference
                         rooms, boardrooms, and classrooms. It provided an API framework
-                        that a user could use, to control the AV devices. The
-                        team also provided libraries (called drivers) to connect
-                        and control devices. I worked on and helped define a standard
-                        interface for these libraries. As part of this process, I
-                        created a python tkinter GUI application, called Driver Validator,
+                        that a user could use, to control the AV devices. The team
+                        also provided libraries (called drivers) to connect and control
+                        devices. I worked on and helped define a standard interface
+                        for these libraries. As part of this process, I created a
+                        python tkinter GUI application, called Driver Validator,
                         a test suite that the library authors used to automate the
                         standards validation. The test suite has now been run for
                         over 4000 libraries and has increased their development rate
                         drastically.
                         <p class="lead mt-4 mb-2">Python debugger</p>
-                        I worked on a project that involved integrating a python debugger in an
-                        embedded device API framework,
-                        in order to make the user programming experience better.
-                        The debugger needed to be small, with minimal dependencies,
-                        handle multiple threads and events. I was able to subclass
-                        a well known debugger and add hooks into it in order to let
-                        the software be able to remotely debug the system and translate
-                        its events to messaging protocol used by the software. This
-                        involved digging in deep into the python execution stack
-                        and its underlying code and mechanisms, which was a learning
-                        experience.
+                        I worked on a project that involved integrating a python debugger in an embedded
+                        device API framework, in order to make the user programming
+                        experience better. The debugger needed to be small, with
+                        minimal dependencies, handle multiple threads and events.
+                        I was able to subclass a well known debugger and add hooks
+                        into it in order to let the software be able to remotely
+                        debug the system and translate its events to messaging protocol
+                        used by the software. This involved digging in deep into
+                        the python execution stack and its underlying code and mechanisms,
+                        which was a learning experience.
                         <p class="lead mt-4 mb-2">Configuration and control deployment strategies</p>
-                        Designed and implemented architecture to help deploy user logic onto the
-                        devices that act as a hub and control point for
-                        devices in the room. This included defining APIs that are
-                        used to dynamically configure the hub, setup secure file
-                        transfers to transfer user programs to the hub asynchronously
-                        and handle runtime addition of hubs to the system. experience.
+                        Designed and implemented architecture to help deploy user logic onto the devices
+                        that act as a hub and control point for devices in the room.
+                        This included defining APIs that are used to dynamically
+                        configure the hub, setup secure file transfers to transfer
+                        user programs to the hub asynchronously and handle runtime
+                        addition of hubs to the system. experience.
                         <p class="lead mt-4 mb-2">Serverless and Iot</p>
                         I recently experimented with the serverless framework writing a CRUD application
                         in typescript and deploying to AWS. It involved setting up
@@ -283,6 +285,18 @@
             </div>
         </div>
     </div>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119809147-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-119809147-1');
+    </script>
 
 </body>
 
